@@ -1,1 +1,16 @@
-jenkins is a ci/cd tool
+node{
+     stage('build'){
+     echo "welcome to build stage"
+   }
+     stage('test'){
+     echo "welcome to test stage"
+   }
+     stage('qa'){
+     echo "welcome to qa stage"
+   }
+     stage('deploy'){
+     echo "welcome to deploy stage"
+   }
+
+
+}
